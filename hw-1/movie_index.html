@@ -6,14 +6,17 @@
   <meta charset="UTF-8" />
   <meta name="description" content="HTML/CSS homework assignment." />
   <meta name="keywords" content="pia, web programming, html, css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="movie.css"/>
 </head>
 
 <body>
   <h1> Beauty and the Beast (1991) </h1>
-
+  <div id="ba">
   <img src="images/freshbig.png" alt="Rotten" />
-  <span>94%</span>
-
+  <span id="procenat">94%</span>
+  </div>
+  <div id="telo">
   <p class="quotebubble">
     <img src="images/rotten.gif" alt="Rotten" />
     <q>The scenes, characters and songs attempt to duplicate the success of Mermaid all too obviously.</q>
@@ -116,9 +119,10 @@
     T.J. <br />
     <span class="publication">Serbia</span>
   </p>
-
+  </div>
   <!-- sekcija sa informacijama: desna kolona. -->
-  <img src="images/lepotica.jpg" alt="general overview" />
+  <div id="traka">
+  <img src="images/lepotica.jpg" alt="general overview" width="200px;" height="300px;" />
   <dl>
     <dt>STARRING</dt>
     <dd>
@@ -174,13 +178,14 @@
       </ul>
     </dd>
   </dl>
+  </div>
 
-  <footer>(1-10) of 88</footer>
+  <!--footer>(1-10) of 88</footer-->
 
-  <div id="w3c">
+  <!--div id="w3c">
     <a href="images/validate-html.php"><img src="images/w3c-html.png" alt="Valid HTML5" /></a><br />
     <a href="images/validate-css.php"><img src="images/w3c-css.png" alt="Valid CSS" /></a>
-  </div>
+  </div-->
 </body>
 
 </html>

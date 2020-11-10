@@ -1,0 +1,63 @@
+*{
+	background-image: url("images/background.png");
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: none;
+	border: none;
+	margin: 0px;
+	}
+body{
+	background-color: #eeeeee;
+}
+#traka{
+	position: absolute;
+    right: 380px;
+	width: 200px;
+    padding-top: 0px;
+	height: 1000px;
+}
+h1{
+	font-size: bold;
+	font-size: 24pt;
+	font-family: Georgia, Times New Roman, serif;
+	text-shadow: 3px 3px #999999;
+	text-align: center;
+}
+#telo{
+	background-color: #EEEEEE;
+	border: 5px solid #EEEEEE;
+	border-spacing: 5px;
+	box-align: center; 
+	float: left;
+	width: 55%; 
+	position: relative;
+	margin: auto;
+}
+/*footer{
+	background-color: #A2B964;
+	border-spacing: 0.5em;
+	border: 1px solid #A2B964;
+	position: bottom;
+	padding-bottom: 10px;
+	
+}*/
+#ba{
+	background-image: url("images/rbg.png");
+	border-bottom: 1em;
+	color: red;
+	position: relative;
+	width: 2000px;
+	
+}
+#procenat{
+	background-image: url("images/rbg.png");
+	font-size: 48pt;
+	font-style: bold;
+}
+*.quotebubble {
+	background-color: #FFFFFF;
+	font-size: 13pt;
+	font-family: Georgia, Times New Roman, serif;
+	width: 90%;
+	border: 2px solid #CCCCCC;
+};
