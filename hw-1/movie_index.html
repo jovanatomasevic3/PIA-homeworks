@@ -1,4 +1,4 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Movie review</title>
@@ -6,16 +6,15 @@
   <meta charset="UTF-8" />
   <meta name="description" content="HTML/CSS homework assignment." />
   <meta name="keywords" content="pia, web programming, html, css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="movie.css"/>
 </head>
 
 <body>
   <h1> Beauty and the Beast (1991) </h1>
-  <div id="ba">
-  <img src="images/freshbig.png" alt="Rotten" />
-  <span id="procenat">94%</span>
-  </div>
+  <div id="baner">
+  <img src="images/freshbig.png" alt="Rotten" style="vertical-align:middle" /> 
+  <span style="float:top">94%</span> </div>
+  <div class="flex-container">
   <div id="telo">
   <p class="quotebubble">
     <img src="images/rotten.gif" alt="Rotten" />
@@ -23,7 +22,7 @@
   </p>
   <p>
     <img src="images/critic.gif" alt="Critic" />
-    Desson Thomson <br />
+     Desson Thomson <br/>
     <span class="publication">Washington Post</span>
   </p>
 
@@ -122,7 +121,7 @@
   </div>
   <!-- sekcija sa informacijama: desna kolona. -->
   <div id="traka">
-  <img src="images/lepotica.jpg" alt="general overview" width="200px;" height="300px;" />
+  <img src="images/lepotica.jpg" alt="general overview" width="300px;" height="400px;" />
   <dl>
     <dt>STARRING</dt>
     <dd>
@@ -135,7 +134,8 @@
     </dd>
 
     <dt>DIRECTORS</dt>
-    <dd>Gary Trousdale, Kirk Wise</dd>
+    <dd>Gary Trousdale <br/>
+	Kirk Wise <br/> </dd>
 
     <dt>RATING</dt>
     <dd>G</dd>
@@ -178,14 +178,14 @@
       </ul>
     </dd>
   </dl>
+	</div>
   </div>
+  <footer>(1-10) of 88</footer>
 
-  <!--footer>(1-10) of 88</footer-->
-
-  <!--div id="w3c">
+  <div id="w3c">
     <a href="images/validate-html.php"><img src="images/w3c-html.png" alt="Valid HTML5" /></a><br />
     <a href="images/validate-css.php"><img src="images/w3c-css.png" alt="Valid CSS" /></a>
-  </div-->
+  </div>
 </body>
 
 </html>
